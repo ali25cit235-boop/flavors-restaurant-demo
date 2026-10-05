@@ -28,14 +28,13 @@ A production-quality, responsive website concept created for **FLAVORS**. Design
 ```text
 flavors-restaurant/
 ├── public/
+│   └── images/                    # Static high-fidelity food and ambiance photography
+│       ├── hero_gourmet_spread.jpg
+│       ├── about_restaurant_ambiance.jpg
+│       ├── spotlight_signature_dish.jpg
+│       ├── gallery_artisan_pizza.jpg
+│       └── gallery_gourmet_dessert.jpg
 ├── src/
-│   ├── assets/
-│   │   └── images/                # High-fidelity food and ambiance photography
-│   │       ├── hero_gourmet_spread_*.jpg
-│   │       ├── about_restaurant_ambiance_*.jpg
-│   │       ├── spotlight_signature_dish_*.jpg
-│   │       ├── gallery_artisan_pizza_*.jpg
-│   │       └── gallery_gourmet_dessert_*.jpg
 │   ├── components/
 │   │   ├── Navbar.tsx             # Sticky navigation with mobile drawer
 │   │   ├── Hero.tsx               # Entrance hero with food photography

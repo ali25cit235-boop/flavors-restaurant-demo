@@ -11,7 +11,7 @@ export const Spotlight: React.FC<SpotlightProps> = ({ onOpenReservation }) => {
   const [imgLoaded, setImgLoaded] = useState(false);
   const [imgError, setImgError] = useState(false);
 
-  const spotlightImg = "/src/assets/images/spotlight_signature_dish_1791163140863.jpg";
+  const spotlightImg = "/images/spotlight_signature_dish.jpg";
 
   const tastingNotes = [
     { title: "Hardwood Sear", note: "Charred over natural fruitwood lump charcoal for caramelized crust" },

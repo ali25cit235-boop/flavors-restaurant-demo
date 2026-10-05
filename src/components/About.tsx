@@ -7,7 +7,7 @@ export const About: React.FC = () => {
   const [imgLoaded, setImgLoaded] = useState(false);
   const [imgError, setImgError] = useState(false);
 
-  const ambianceImg = "/src/assets/images/about_restaurant_ambiance_1791163128353.jpg";
+  const ambianceImg = "/images/about_restaurant_ambiance.jpg";
 
   return (
     <section id="about" className="py-20 md:py-28 bg-[#FAF6F0] border-y border-[#EBE1D7] relative overflow-hidden">

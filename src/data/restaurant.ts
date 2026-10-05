@@ -107,7 +107,7 @@ export const RESTAURANT_DATA = {
       price: "$38.00",
       isDemoPrice: true,
       description: "Dry-aged 12oz beef steak seared over open coals, topped with whipped rosemary herb butter, roasted garlic head, and sea salt flakes.",
-      image: "/src/assets/images/spotlight_signature_dish_1791163140863.jpg",
+      image: "/images/spotlight_signature_dish.jpg",
       dietary: ["Chef's Signature", "Gluten-Free"],
       highlight: "House Specialty",
       ingredients: ["Dry-aged prime beef", "Cultured rosemary butter", "Confit garlic", "Maldon sea salt"]
@@ -119,7 +119,7 @@ export const RESTAURANT_DATA = {
       price: "$21.50",
       isDemoPrice: true,
       description: "Custom ground short rib & brisket patty, melted 18-month aged cheddar, black truffle aioli, and caramelized balsamic onions on toasted brioche.",
-      image: "/src/assets/images/hero_gourmet_spread_1791163111798.jpg",
+      image: "/images/hero_gourmet_spread.jpg",
       dietary: ["House Favorite"],
       highlight: "Signature Handheld",
       ingredients: ["Brisket & short rib blend", "Truffle aioli", "Aged cheddar", "Glazed brioche bun"]
@@ -131,7 +131,7 @@ export const RESTAURANT_DATA = {
       price: "$19.00",
       isDemoPrice: true,
       description: "72-hour slow-fermented sourdough crust blistered at 900°F, San Marzano tomato sauce, fresh buffalo mozzarella, aromatic basil, and raw olive oil.",
-      image: "/src/assets/images/gallery_artisan_pizza_1791163156357.jpg",
+      image: "/images/gallery_artisan_pizza.jpg",
       dietary: ["Vegetarian", "Wood-Fired"],
       highlight: "Hearth Baked",
       ingredients: ["San Marzano DOP", "Buffalo Mozzarella", "Fresh basil", "Cold-pressed olive oil"]
@@ -143,7 +143,7 @@ export const RESTAURANT_DATA = {
       price: "$13.50",
       isDemoPrice: true,
       description: "Decadent dark chocolate sponge with a warm flowing ganache center, served with house-spun vanilla bean gelato and fresh tart raspberries.",
-      image: "/src/assets/images/gallery_gourmet_dessert_1791163167337.jpg",
+      image: "/images/gallery_gourmet_dessert.jpg",
       dietary: ["Vegetarian", "Sweet Ending"],
       highlight: "Pastry Craft",
       ingredients: ["Valrhona 70% dark chocolate", "Madagascar vanilla bean", "Cultured butter", "Wild raspberries"]
@@ -155,7 +155,7 @@ export const RESTAURANT_DATA = {
       price: "$16.00",
       isDemoPrice: true,
       description: "Tender flash-fried calamari tossed with charred lemon wheels, shaved pickled chilis, and served with a zesty preserved lemon caper aioli.",
-      image: "/src/assets/images/hero_gourmet_spread_1791163111798.jpg",
+      image: "/images/hero_gourmet_spread.jpg",
       dietary: ["Seafood", "Shareable"],
       ingredients: ["Fresh calamari", "Meyer lemon", "Calabrian chili", "House aioli"]
     },
@@ -166,7 +166,7 @@ export const RESTAURANT_DATA = {
       price: "$17.50",
       isDemoPrice: true,
       description: "Creamy whole burrata sphere, caramelized black mission figs, wild baby arugula, aged Modena balsamic reduction, and warm grilled rustic sourdough.",
-      image: "/src/assets/images/about_restaurant_ambiance_1791163128353.jpg",
+      image: "/images/about_restaurant_ambiance.jpg",
       dietary: ["Vegetarian", "Seasonal"],
       ingredients: ["Pugliese burrata", "Heirloom figs", "Wild rocket", "25-year aged balsamic"]
     },
@@ -177,7 +177,7 @@ export const RESTAURANT_DATA = {
       price: "$18.00",
       isDemoPrice: true,
       description: "Crispy crackling pork belly glazed in spiced honey bourbon reduction, ginger-scallion slaw, and crushed toasted peanuts in warm steamed buns.",
-      image: "/src/assets/images/spotlight_signature_dish_1791163140863.jpg",
+      image: "/images/spotlight_signature_dish.jpg",
       dietary: ["Chef Recommended"],
       ingredients: ["Braised pork belly", "Bourbon glaze", "Pickled cucumber", "Sesame brioche"]
     },
@@ -188,7 +188,7 @@ export const RESTAURANT_DATA = {
       price: "$23.00",
       isDemoPrice: true,
       description: "Wood-fired crust, white truffle cream base, roasted cremini & chanterelle mushrooms, fior di latte, and topped with 24-month prosciutto di Parma.",
-      image: "/src/assets/images/gallery_artisan_pizza_1791163156357.jpg",
+      image: "/images/gallery_artisan_pizza.jpg",
       dietary: ["Wood-Fired"],
       ingredients: ["Wild chanterelles", "Truffle fonduta", "Prosciutto di Parma", "Fior di latte"]
     },
@@ -199,7 +199,7 @@ export const RESTAURANT_DATA = {
       price: "$34.00",
       isDemoPrice: true,
       description: "Crisp-skinned branzino fillet over saffron-infused potato confit, charred broccolini, blistered cherry tomatoes, and herb-caper emulsion.",
-      image: "/src/assets/images/about_restaurant_ambiance_1791163128353.jpg",
+      image: "/images/about_restaurant_ambiance.jpg",
       dietary: ["Gluten-Free", "Seafood"],
       ingredients: ["Wild branzino", "Saffron potatoes", "Charred broccolini", "Citrus beurre blanc"]
     },
@@ -210,7 +210,7 @@ export const RESTAURANT_DATA = {
       price: "$15.00",
       isDemoPrice: true,
       description: "Handcrafted small-batch bourbon, aromatic Angostura bitters, raw demerara syrup, torched orange peel, and hickory wood smoke.",
-      image: "/src/assets/images/hero_gourmet_spread_1791163111798.jpg",
+      image: "/images/hero_gourmet_spread.jpg",
       dietary: ["Craft Beverage", "21+"],
       ingredients: ["Small batch bourbon", "Aromatic bitters", "Orange peel oils", "Hickory smoke"]
     }
@@ -222,7 +222,7 @@ export const RESTAURANT_DATA = {
       id: "g1",
       title: "The Dining Room",
       category: "Ambiance",
-      image: "/src/assets/images/about_restaurant_ambiance_1791163128353.jpg",
+      image: "/images/about_restaurant_ambiance.jpg",
       aspect: "landscape",
       caption: "Warm golden lighting, linen napkins, and intimate seating designed for comfortable dining."
     },
@@ -230,7 +230,7 @@ export const RESTAURANT_DATA = {
       id: "g2",
       title: "Signature Prime Cut",
       category: "Grill",
-      image: "/src/assets/images/spotlight_signature_dish_1791163140863.jpg",
+      image: "/images/spotlight_signature_dish.jpg",
       aspect: "square",
       caption: "Seared over glowing hardwood embers and basted in cultured herb butter."
     },
@@ -238,7 +238,7 @@ export const RESTAURANT_DATA = {
       id: "g3",
       title: "Stone Hearth Pizza",
       category: "Oven",
-      image: "/src/assets/images/gallery_artisan_pizza_1791163156357.jpg",
+      image: "/images/gallery_artisan_pizza.jpg",
       aspect: "square",
       caption: "Naturally leavened dough blistered at extreme heat for a light, chewy crust."
     },
@@ -246,7 +246,7 @@ export const RESTAURANT_DATA = {
       id: "g4",
       title: "Pastry & Confections",
       category: "Dessert",
-      image: "/src/assets/images/gallery_gourmet_dessert_1791163167337.jpg",
+      image: "/images/gallery_gourmet_dessert.jpg",
       aspect: "portrait",
       caption: "Warm flowing dark chocolate and house-made vanilla bean gelato."
     },
@@ -254,7 +254,7 @@ export const RESTAURANT_DATA = {
       id: "g5",
       title: "The Evening Spread",
       category: "Cuisine",
-      image: "/src/assets/images/hero_gourmet_spread_1791163111798.jpg",
+      image: "/images/hero_gourmet_spread.jpg",
       aspect: "landscape",
       caption: "A generous table set with our signature cuts, fresh sides, and full-bodied wine."
     },
@@ -262,7 +262,7 @@ export const RESTAURANT_DATA = {
       id: "g6",
       title: "Cocktail Craft",
       category: "Bar",
-      image: "/src/assets/images/hero_gourmet_spread_1791163111798.jpg",
+      image: "/images/hero_gourmet_spread.jpg",
       aspect: "square",
       caption: "Hand-chipped ice, botanical syrups, and expertly measured spirits."
     }

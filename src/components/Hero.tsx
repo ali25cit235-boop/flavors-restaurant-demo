@@ -11,7 +11,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenReservation }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
   const [imageError, setImageError] = useState(false);
 
-  const heroImageSrc = "/src/assets/images/hero_gourmet_spread_1791163111798.jpg";
+  const heroImageSrc = "/images/hero_gourmet_spread.jpg";
 
   const handleScrollTo = (id: string) => {
     const element = document.getElementById(id);
