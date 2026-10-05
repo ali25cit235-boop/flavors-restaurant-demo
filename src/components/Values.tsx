@@ -86,7 +86,7 @@ export const Values: React.FC = () => {
 
                 <div className="mt-6 pt-4 border-t border-[#F0E6DC] text-[11px] text-[#8C7E74] flex items-center gap-1.5">
                   <span className="w-1.5 h-1.5 rounded-full bg-[#C5A880]" />
-                  <span>FLAVORS Hospitality Core</span>
+                  <span>FLAVOURZ Hospitality Core</span>
                 </div>
               </motion.div>
             );

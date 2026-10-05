@@ -127,14 +127,21 @@ export const Footer: React.FC = () => {
 
         </div>
 
+        {/* Sample Design Notice by Ali Web Studio */}
+        <div className="py-4 border-b border-[#38332E] text-center">
+          <p className="text-xs text-[#C5A880] font-medium tracking-wide">
+            Sample design concept by Ali Web Studio. Menu items, prices, hours, photos and contact details are placeholders only.
+          </p>
+        </div>
+
         {/* Bottom bar with dynamic year and concept disclaimer */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#78716C]">
           <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 text-center sm:text-left">
-            <span>&copy; {currentYear} {RESTAURANT_DATA.name} Concept Demo. All rights reserved.</span>
+            <span>&copy; {currentYear} Flavourz. All rights reserved.</span>
             <span className="hidden sm:inline" aria-hidden="true">·</span>
             <span className="inline-flex items-center gap-1 text-[#A89F91]">
               <Sparkles className="w-3 h-3 text-[#C5A880]" />
-              <span>Website concept/demo presentation</span>
+              <span>Sample concept for presentation · Kamalia, Pakistan</span>
             </span>
           </div>
 

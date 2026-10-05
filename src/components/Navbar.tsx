@@ -11,6 +11,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenReservation }) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [hoveredNav, setHoveredNav] = useState<string | null>(null);
+  const [bannerVisible, setBannerVisible] = useState(true);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -69,17 +70,46 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenReservation }) => {
 
   return (
     <>
-      {/* Top Bar Navigation */}
+      {/* Top Bar Navigation with Integrated Dismissible Notice Banner */}
       <motion.header
         initial={{ y: -60, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+        transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] as const }}
         className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
           isScrolled
             ? 'bg-[#FDFBF7]/95 backdrop-blur-md shadow-xs border-b border-[#E8DFD8]'
             : 'bg-[#FDFBF7]/85 backdrop-blur-xs border-b border-transparent'
         }`}
       >
+        {/* Slim dismissible sample notice banner (never overlaps navbar on mobile) */}
+        <AnimatePresence>
+          {bannerVisible && (
+            <motion.aside
+              aria-label="Sample design notice"
+              initial={{ height: 0, opacity: 0 }}
+              animate={{ height: 'auto', opacity: 1 }}
+              exit={{ height: 0, opacity: 0 }}
+              transition={{ duration: 0.25 }}
+              className="overflow-hidden bg-[#631526] text-[#FDFBF7] border-b border-[#4E0E1C]"
+            >
+              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-1.5 flex items-center justify-between text-[11px] sm:text-xs font-medium tracking-wide">
+                <div className="flex-1 text-center pr-2 flex items-center justify-center gap-1.5">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#C5A880] animate-pulse shrink-0" />
+                  <span>Sample website design by Ali Web Studio</span>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setBannerVisible(false)}
+                  className="p-1 text-white/80 hover:text-white rounded-xs transition-colors cursor-pointer shrink-0"
+                  aria-label="Dismiss notice"
+                >
+                  <X className="w-3.5 h-3.5" />
+                </button>
+              </div>
+            </motion.aside>
+          )}
+        </AnimatePresence>
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             {/* Zone 1: Single text element wordmark */}

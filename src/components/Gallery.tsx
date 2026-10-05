@@ -60,7 +60,7 @@ export const Gallery: React.FC = () => {
           </h2>
 
           <p className="text-base text-[#57534E] font-sans [text-wrap:pretty]">
-            A visual journey celebrating the colors, textures, and craft that define the FLAVORS dining experience.
+            A visual journey celebrating the colors, textures, and craft that define the Flavourz dining experience.
           </p>
         </motion.div>
 

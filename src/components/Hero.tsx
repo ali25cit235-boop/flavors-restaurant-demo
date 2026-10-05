@@ -80,7 +80,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenReservation }) => {
             {/* Quiet unboxed kicker text with subtle bounce/fade */}
             <motion.div variants={itemVariants} className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-widest text-[#631526]">
               <Sparkles className="w-3.5 h-3.5 text-[#C5A880] animate-pulse" />
-              <span>FLAVORS · Taste the Difference</span>
+              <span>FLAVOURZ · Taste the Difference</span>
             </motion.div>
 
             {/* Display Headline */}
@@ -160,13 +160,13 @@ export const Hero: React.FC<HeroProps> = ({ onOpenReservation }) => {
                 
                 {imageError ? (
                   <div className="absolute inset-0 bg-gradient-to-br from-[#4A0E1C] to-[#1C1917] flex flex-col items-center justify-center p-8 text-center text-white">
-                    <span className="font-serif text-2xl font-bold mb-2">FLAVORS</span>
+                    <span className="font-serif text-2xl font-bold mb-2">FLAVOURZ</span>
                     <p className="text-xs text-[#EAE0D6] max-w-xs">A celebratory spread of prime cuts, artisanal burgers, and fresh harvest sides.</p>
                   </div>
                 ) : (
                   <img
                     src={heroImageSrc}
-                    alt="Lavish gourmet dinner spread at FLAVORS featuring prime ribeye steak, handcrafted burger, roasted vegetables, and fine wine"
+                    alt="Lavish gourmet dinner spread at Flavourz featuring prime ribeye steak, handcrafted burger, roasted vegetables, and fine wine"
                     referrerPolicy="no-referrer"
                     onLoad={() => setImageLoaded(true)}
                     onError={() => setImageError(true)}

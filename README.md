@@ -1,24 +1,24 @@
-# FLAVORS — Taste the Difference
-### Premium Restaurant Website Concept & Dining Showcase
+# Flavourz — Taste the Difference
+### Premium Restaurant Website Concept & Dining Showcase · Kamalia, Pakistan
 
-A production-quality, responsive website concept created for **FLAVORS**. Designed with an editorial culinary aesthetic, warm cream canvas, deep burgundy accents, muted gold highlights, high-resolution food photography, and smooth interactions.
+A production-quality, responsive website concept created for **Flavourz** in Kamalia, Pakistan. Designed with an editorial culinary aesthetic, warm cream canvas, deep burgundy accents, muted gold highlights, high-resolution food photography, and smooth interactions.
 
-> **Project Disclosure**: This is a visual website concept and demonstration for presentation to a restaurant prospect. Specific menu items, pricing, opening hours, and address details are illustrative placeholders to be confirmed by the establishment.
+> **Sample Design Notice**: Sample design concept by **Ali Web Studio**. Menu items, prices, hours, photos and contact details are placeholders only.
 
 ---
 
 ## 🍽️ Key Features
 
 - **Editorial Culinary Design**: Warm cream background (`#FDFBF7`), deep wine-burgundy accents (`#631526`), charcoal typography, and subtle champagne gold accents.
-- **Top Bar Contract Navigation**: Sticky header with single-element FLAVORS wordmark, smooth scroll anchors, and mobile drawer menu with Escape key support.
+- **Top Bar Contract Navigation**: Sticky header with single-element FLAVOURZ wordmark, smooth scroll anchors, and mobile drawer menu with Escape key support.
 - **Mouth-Watering Hero Section**: Gourmet dinner spread showcase, balanced display headlines, and dual conversion paths.
 - **Our Story / Philosophy**: Two-column editorial storytelling highlighting culinary craft and genuine hospitality without making unverified historical claims.
 - **Interactive Signature Menu**: Category filtering (Starters, Burgers, Mains, Pizza, Desserts, Drinks) with interactive dish inspection modals and clear sample menu notices.
 - **Featured Dish Spotlight**: Immersive flame-seared dry-aged ribeye spotlight with chef tasting notes.
 - **Culinary Values**: Asymmetric presentation of core dining commitments (Craftsmanship, Variety, Sharing, Atmosphere).
 - **Curated Food Gallery**: Editorial mosaic grid with responsive modal lightbox, keyboard navigation (Escape, Left/Right arrows), and touch support.
-- **The FLAVORS Experience**: High-impact brand quote section celebrating communion around the dining table.
-- **Location, Hours & Direct Contact**: Clear demo indicators for pending establishment verification, plus interactive Get Directions preview, WhatsApp readiness modal, and a working table booking simulator.
+- **The FLAVOURZ Experience**: High-impact brand quote section celebrating communion around the dining table.
+- **Location, Hours & Direct Contact**: Placeholder location set to Kamalia, Pakistan with clear demo indicators for pending establishment verification, plus interactive Get Directions preview, WhatsApp readiness modal, and a working table booking simulator.
 - **Single Source of Truth Configuration**: All restaurant details, hours, phone numbers, and menu items reside in `src/data/restaurant.ts` for rapid client customization.
 
 ---
@@ -26,7 +26,7 @@ A production-quality, responsive website concept created for **FLAVORS**. Design
 ## 📁 Project Structure
 
 ```text
-flavors-restaurant/
+flavourz-restaurant/
 ├── public/
 │   └── images/                    # Static high-fidelity food and ambiance photography
 │       ├── hero_gourmet_spread.jpg
@@ -120,12 +120,12 @@ git init
 git add .
 
 # 3. Create initial commit
-git commit -m "feat: complete FLAVORS restaurant website concept"
+git commit -m "feat: complete Flavourz restaurant website concept"
 
-# 4. Create a new repository on GitHub (e.g. 'flavors-restaurant')
+# 4. Create a new repository on GitHub (e.g. 'flavourz-restaurant')
 
 # 5. Link local repo to GitHub remote
-git remote add origin https://github.com/<YOUR_USERNAME>/flavors-restaurant.git
+git remote add origin https://github.com/<YOUR_USERNAME>/flavourz-restaurant.git
 
 # 6. Push to main branch
 git branch -M main

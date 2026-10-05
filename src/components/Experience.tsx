@@ -25,7 +25,7 @@ export const Experience: React.FC = () => {
           transition={{ duration: 0.5 }}
           className="block text-xs font-semibold uppercase tracking-widest text-[#631526] mb-4"
         >
-          The FLAVORS Experience
+          The FLAVOURZ Experience
         </motion.span>
 
         {/* Brand Dining Quote */}

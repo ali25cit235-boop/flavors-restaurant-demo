@@ -82,7 +82,7 @@ export const Contact: React.FC<ContactProps> = ({ onOpenReservation }) => {
                     {RESTAURANT_DATA.contact.address}
                   </p>
                   <p className="text-xs text-[#57534E] mt-1">
-                    Illustrative area: {RESTAURANT_DATA.contact.neighborhood}, {RESTAURANT_DATA.contact.city}
+                    Placeholder location: Kamalia, Pakistan
                   </p>
                   <motion.button
                     whileHover={{ scale: 1.02 }}
@@ -423,7 +423,7 @@ export const Contact: React.FC<ContactProps> = ({ onOpenReservation }) => {
                   Close
                 </button>
                 <a
-                  href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(RESTAURANT_DATA.name + ' restaurant')}`}
+                  href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent('Flavourz restaurant, Kamalia, Pakistan')}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-4 py-2 text-xs font-semibold text-white bg-[#631526] hover:bg-[#4E0E1C] rounded-xs transition-colors inline-flex items-center gap-1.5"

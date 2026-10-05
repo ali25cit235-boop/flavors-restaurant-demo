@@ -1,5 +1,5 @@
 /**
- * FLAVORS Restaurant Data & Configuration
+ * Flavourz Restaurant Data & Configuration
  * 
  * Edit this file to update the restaurant's information, menu items,
  * contact details, opening hours, and branding across the entire site.
@@ -28,39 +28,41 @@ export interface GalleryItem {
 }
 
 export const RESTAURANT_DATA = {
-  name: "FLAVORS",
+  name: "FLAVOURZ",
+  brandName: "Flavourz",
   tagline: "Taste the Difference",
   headline: "Good Food. Beautiful Moments.",
   description: "An inviting culinary destination where honest ingredients, artisanal technique, and heartfelt hospitality meet around every table.",
   
   // Disclaimer for concept demo
   isConceptDemo: true,
-  demoDisclaimer: "Website concept demo created for presentation purposes. Specific menu selections, pricing, and operating details are to be confirmed with the establishment.",
+  demoDisclaimer: "Sample design concept by Ali Web Studio. Menu items, prices, hours, photos and contact details are placeholders only.",
   
   // Contact & Location Details (Clearly marked demo indicators as required)
   contact: {
-    address: "Restaurant address to be confirmed",
-    neighborhood: "Downtown Culinary District",
-    city: "Metro City",
-    fullAddressDemo: "142 Epicurean Avenue, Suite 100, Gourmet Quarter",
+    address: "Restaurant address to be confirmed — Kamalia, Pakistan",
+    neighborhood: "Kamalia",
+    city: "Kamalia, Pakistan",
+    locationDisplay: "Kamalia, Pakistan",
+    fullAddressDemo: "Main Boulevard, Kamalia, Punjab, Pakistan",
     phone: "Contact number to be confirmed",
-    phoneDemo: "+1 (555) 234-5678",
-    email: "inquiries@flavors-concept.demo",
+    phoneDemo: "+92 (300) 123-4567",
+    email: "inquiries@flavourz.demo",
     openingHours: {
       weekdays: "Opening hours to be confirmed (e.g. Tue – Thu: 12:00 PM – 10:00 PM)",
       weekends: "Opening hours to be confirmed (e.g. Fri – Sun: 12:00 PM – 11:30 PM)",
       closedDay: "Closed Mondays for culinary prep",
     },
-    googleMapsSearchQuery: "FLAVORS Restaurant Concept",
+    googleMapsSearchQuery: "Kamalia, Punjab, Pakistan",
     whatsappNumber: "", // Empty until verified by business owner
     whatsappPlaceholder: "WhatsApp inquiries to be confirmed",
   },
 
   // Social Links (Verified or marked as demo)
   socials: [
-    { name: "Instagram", url: "#", handle: "@flavors.concept" },
-    { name: "Facebook", url: "#", handle: "FLAVORS Bistro" },
-    { name: "TripAdvisor", url: "#", handle: "FLAVORS Dining" }
+    { name: "Instagram", url: "#", handle: "@flavourz.pk" },
+    { name: "Facebook", url: "#", handle: "Flavourz Kamalia" },
+    { name: "TripAdvisor", url: "#", handle: "Flavourz Dining" }
   ],
 
   // Core Values (General dining philosophy without unverified claims)
@@ -114,7 +116,7 @@ export const RESTAURANT_DATA = {
     },
     {
       id: "m2",
-      name: "The FLAVORS Truffle Burger",
+      name: "The FLAVOURZ Truffle Burger",
       category: "burgers",
       price: "$21.50",
       isDemoPrice: true,

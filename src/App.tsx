@@ -30,15 +30,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#FDFBF7] text-[#1C1917] flex flex-col font-sans selection:bg-[#631526]/15 selection:text-[#631526]">
-      {/* Top Banner: Unobtrusive concept disclosure banner */}
-      <aside aria-label="Concept presentation" className="bg-[#631526] text-[#FDFBF7] text-xs py-2 px-4 text-center font-medium tracking-wide z-50">
-        <p className="max-w-7xl mx-auto flex items-center justify-center gap-2">
-          <span className="w-1.5 h-1.5 rounded-full bg-[#C5A880] animate-pulse" />
-          <span>FLAVORS Restaurant Website Concept — Visual Demo for Presentation Purposes</span>
-        </p>
-      </aside>
-
-      {/* Navigation Bar */}
+      {/* Navigation Bar with slim dismissible Ali Web Studio banner */}
       <Navbar onOpenReservation={() => setReservationOpen(true)} />
 
       {/* Main Content Sections */}

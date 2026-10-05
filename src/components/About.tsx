@@ -46,7 +46,7 @@ export const About: React.FC = () => {
                 ) : (
                   <img
                     src={ambianceImg}
-                    alt="Intimate dining atmosphere at FLAVORS with warm pendant lighting and elegant wooden tables"
+                    alt="Intimate dining atmosphere at Flavourz with warm pendant lighting and elegant wooden tables"
                     referrerPolicy="no-referrer"
                     onLoad={() => setImgLoaded(true)}
                     onError={() => setImgError(true)}
@@ -66,7 +66,7 @@ export const About: React.FC = () => {
                 >
                   <div>
                     <span className="text-xs uppercase tracking-wider text-[#631526] font-semibold block">
-                      The FLAVORS Atmosphere
+                      The FLAVOURZ Atmosphere
                     </span>
                     <span className="text-sm font-serif text-[#1C1917]">
                       Designed for Comfort & Conversation
@@ -97,7 +97,7 @@ export const About: React.FC = () => {
             </div>
 
             <p className="text-base text-[#57534E] leading-relaxed font-sans">
-              At {RESTAURANT_DATA.name}, we believe dining is at its best when it is unpretentious, deeply flavorful, and shared with good company. Great meals have a quiet way of turning ordinary evenings into cherished memories.
+              At Flavourz, we believe dining is at its best when it is unpretentious, deeply flavorful, and shared with good company. Great meals have a quiet way of turning ordinary evenings into cherished memories.
             </p>
 
             <p className="text-base text-[#57534E] leading-relaxed font-sans">
